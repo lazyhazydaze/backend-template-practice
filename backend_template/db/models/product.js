@@ -21,12 +21,15 @@ module.exports = (sequelize, DataTypes) => {
       },
       name: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       date: {
         type: DataTypes.DATE,
+        allowNull: false,
       },
       price: {
         type: DataTypes.INTEGER,
+        allowNull: false,
       },
       created_at: {
         type: DataTypes.DATE,
